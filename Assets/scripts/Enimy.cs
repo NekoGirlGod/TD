@@ -8,7 +8,8 @@ public class Enimy : MonoBehaviour
     public float HP = 100;
     public float speed = 1;
     public float Damage = 10;
-    public int Coast = 10;
+    public int CoastMin = 10;
+    public int CoastMax = 10;
 
     [System.NonSerialized]
     public GameObject castle;
@@ -65,8 +66,9 @@ public class Enimy : MonoBehaviour
 
     public void Death()
     {
+        System.Random rnd = new System.Random();
         spawner.GetComponent<EnimySpawner>().enimyLively--;
-        castleScr.setMoney(Coast);
+        castleScr.setMoney(rnd.Next(CoastMin,CoastMax));
         Destroy(gameObject);
         
     }

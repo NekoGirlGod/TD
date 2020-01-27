@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class EnimySpawner : MonoBehaviour
 {
@@ -11,8 +12,9 @@ public class EnimySpawner : MonoBehaviour
     public float EnimyCD;
     public int[] EnimyInWave;
     public GameObject Castle;
-    public Text waveText;
+    public GameObject TMProWave;
 
+    TextMeshProUGUI waveText;
     int typsEnimyCount;
     private int thisWave=0;
     int WaveCount;
@@ -22,6 +24,7 @@ public class EnimySpawner : MonoBehaviour
     System.Random rnd = new System.Random();
     void Start()
     {
+        waveText= TMProWave.GetComponent<TextMeshProUGUI>();
         typsEnimyCount = typsEnimy.Count;
         WaveCount = EnimyInWave.Length;
     }

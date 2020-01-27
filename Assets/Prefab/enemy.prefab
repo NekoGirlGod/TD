@@ -113,4 +113,5 @@ MonoBehaviour:
   HP: 100
   speed: 1
   Damage: 10
-  Coast: 100
+  CoastMin: 100
+  CoastMax: 200

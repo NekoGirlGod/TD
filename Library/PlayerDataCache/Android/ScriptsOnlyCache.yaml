@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -82,6 +83,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11002}
     - Class: 114
       Script: {instanceID: 11068}
+    - Class: 114
+      Script: {instanceID: 11094}
     - Class: 114
       Script: {instanceID: 11156}
     - Class: 114
@@ -435,7 +438,7 @@ ScriptsOnlyBuild:
     className: towerSlot
   - hash:
       serializedVersion: 2
-      Hash: d4789776a5aaad027c3fc492fde0debe
+      Hash: 56e995705a7894cd1b3a1a23b1232af6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enimy
@@ -465,7 +468,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 9fc9b27b140d5de8d41ad3764c6a9815
+      Hash: 800d4d21acd813429739e2aeae9ac467
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Castle
@@ -483,7 +486,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 8dd6677f0f51ee4ca5db9ff5cb58fadd
+      Hash: f05610cf8531f9ace78e783403ce9d10
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnimySpawner
