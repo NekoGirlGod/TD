@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    [SerializeField]
-    TowerData towerData;
-
     public GameObject bulletType;
     public float cooldown=1.3f;
     public float radius=3f;
-    public int cost = 100; 
+    public int cost=100; 
 
     List<GameObject> Enimes;
     void Start()

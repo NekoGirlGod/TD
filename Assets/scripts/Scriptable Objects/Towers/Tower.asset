@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ecbb926fab73c47814649b41d1c576, type: 3}
   m_Name: Tower
   m_EditorClassIdentifier: 
+  bulletType: {fileID: 2685691657161100877, guid: dfd277b6fa145554aa9373d73333a3bd,
+    type: 3}
   cooldown: 0.5
-  radius: 3
+  radius: 30
   cost: 100

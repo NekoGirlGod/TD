@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a489b6709e69c649bdea1081b0cf9c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enimes: []
   bulletType: {fileID: 2685691657161100877, guid: dfd277b6fa145554aa9373d73333a3bd,
     type: 3}
   cooldown: 0.5
   radius: 3
+  cost: 100
 --- !u!58 &2641121743025957296
 CircleCollider2D:
   m_ObjectHideFlags: 0

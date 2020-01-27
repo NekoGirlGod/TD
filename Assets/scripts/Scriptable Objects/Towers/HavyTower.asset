@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ecbb926fab73c47814649b41d1c576, type: 3}
   m_Name: HavyTower
   m_EditorClassIdentifier: 
+  bulletType: {fileID: 2685691657161100877, guid: a989b6724b955e040a757695034ee60d,
+    type: 3}
   cooldown: 1
   radius: 10
   cost: 150
